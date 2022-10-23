@@ -1,5 +1,4 @@
 import { FallingLines } from  'react-loader-spinner'
-// import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import { Wrap } from './Loader.styled';
 
 

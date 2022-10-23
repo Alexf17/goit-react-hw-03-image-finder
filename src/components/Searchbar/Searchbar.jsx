@@ -1,7 +1,14 @@
 import { Component } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import {SearchbarHeader,SearchForm, SearchFormButton, SearchFormInput, SearchFormButtonLabel} from './Searchbar.styled'
+import {
+  SearchbarHeader,
+  SearchForm,
+  SearchFormButton,
+  SearchFormInput,
+  SearchFormButtonLabel,
+} from './Searchbar.styled';
+import PropTypes from 'prop-types';
 
 export class Searchbar extends Component {
   state = {
@@ -57,3 +64,7 @@ export class Searchbar extends Component {
     );
   }
 }
+
+Searchbar.propTypes = {
+  onSubmit: PropTypes.func.isRequired,
+};
