@@ -36,9 +36,6 @@ export class App extends Component {
     if (!totalHits) {
       toast.info('🟡 Sorry , но по Вашему запросу нет картинок ')
     }
-    if (totalHits > 0) {
-      toast.info(`🟢 Yes , по Вашему запросу найдено ${totalHits} изображений`)
-    }
   };
 
   onLoadMoreButton = () => {

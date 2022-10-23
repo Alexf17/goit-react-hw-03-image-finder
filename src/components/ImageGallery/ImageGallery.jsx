@@ -1,5 +1,7 @@
 import {ImageGalleryItem} from '../ImageGalleryItem/ImageGalleryItem'
-import {ImageGalleryWrap} from './ImageGallery.stylesd'
+import { ImageGalleryWrap } from './ImageGallery.styled'
+
+
 
 export const ImageGallery = ({dataResponse}) => {
     return (
