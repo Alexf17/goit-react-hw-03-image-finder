@@ -68,11 +68,6 @@ export class App extends Component {
       <Wrap>
         <ToastContainer />
         <Searchbar props={this.onSubmit} />
-        {/* <API
-          dataQuery={this.state.query}
-          dataPage={this.state.currentPage}
-          request={this.responsAPI}
-        /> */}
         <ImageGallery dataResponse={this.state.respons} />
         {this.state.total > this.state.respons.length && (
           <Button onLoadMore={this.onLoadMoreButton} />
